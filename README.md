@@ -1,7 +1,9 @@
-# Exercise Progression Code
-I created this code in Python, then rewrote in R, to create personalized workout plans focused on progressive overload with the goal of increasing strength and hypertrophy.
+# Exercise Progression Code Background.
+I created this code in Python, then rewrote in R, to create personalized workout plans focused on progressive overload with the goal of increasing strength and hypertrophy. The basis of progression in this approach is based on the 1 repetition maximum value, or the 1 rep max, using the formula by Matt Brzycki (1998).
 
-## Here is a brief non-technical description of what this code aims to do, and a step-by-step technical description follows:
+In a systematic review and meta-analysis of exercise protocols by Schoenfeld et al. (2017), the authors observed that high-load training produced the greatest strenght increases, while hypertrophy was more closely tied to the volume (sets * reps * weight) of the training. Given that this code aims to maximize strength, it does coincidentally lead to progressively increased training volume over time, but the main focus is on strength gains, as measured by the 1 rep max.
+
+## Here is a brief non-technical description of what the code aims to do, and a step-by-step technical description follows:
 
 ### Non-technical description:
 
