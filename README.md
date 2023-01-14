@@ -1,7 +1,7 @@
 # Exercise Progression Code Background.
 I created this code in Python, then rewrote in R, to create personalized workout plans focused on progressive overload with the goal of increasing strength and hypertrophy. The basis of progression in this approach is based on the 1 repetition maximum value, or the 1 rep max, using the formula by Matt Brzycki (1998).
 
-In a systematic review and meta-analysis of exercise protocols by Schoenfeld et al. (2017), the authors observed that high-load training produced the greatest strenght increases, while hypertrophy was more closely tied to the volume (sets * reps * weight) of the training. Given that this code aims to maximize strength, it does coincidentally lead to progressively increased training volume over time, but the main focus is on strength gains, as measured by the 1 rep max.
+In a systematic review and meta-analysis of exercise protocols by Schoenfeld et al. (2017), the authors observed that high-load training produced the greatest strength increases, while hypertrophy was more closely tied to the volume (sets * reps * weight) of the training. Given that this code aims to maximize strength, it does coincidentally lead to progressively increased training volume over time, but the main focus is on strength gains, as measured by the 1 rep max.
 
 ## Here is a brief non-technical description of what the code aims to do, and a step-by-step technical description follows:
 
@@ -17,9 +17,9 @@ For example, to create a workout plan for bench press, squats, and cleans exerci
 
 
 ### Technical Description
-The code defines a function exercise_projection(exercises, n_weeks=16, sets=3) that takes a list of exercises, the number of weeks and number of sets as inputs and returns a dataframe that contains the progression of exercise plan for each exercise specified.
+The code (python and R) defines a function exercise_projection(exercises, n_weeks=16, sets=3) that takes a list of exercises, the number of weeks and number of sets as inputs and returns a dataframe that contains the progression of exercise plan for each exercise specified.
 
-The function does the following:
+The function (in python) does the following:
 
   - Initialize an empty list data that will later be used to store the dataframe for each exercise
   - Iterate over the list of exercises passed as an argument to the function
